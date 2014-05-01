@@ -43,7 +43,7 @@ def get_options():
                   help="input filename (if paired files, use \",\" to separate)", metavar="FILE")
     
     parser.add_option("-o", "--output_filename", dest="output_filename",
-                  help="Output filename", metavar="FILE")
+                  help="output filename", metavar="FILE")
     
     parser.add_option("-p", "--percent", dest="percent",
                   help="sampling percent (%)", type="float", default=0.0)
