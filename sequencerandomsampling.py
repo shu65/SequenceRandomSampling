@@ -40,10 +40,10 @@ from numpy.core.fromnumeric import sort
 def get_options():
     parser = OptionParser()
     parser.add_option("-i", "--input_filenames", dest="input_filenames",
-                  help="input fasta filename (if paired files, use \",\" to separate)", metavar="FILE")
+                  help="input filename (if paired files, use \",\" to separate)", metavar="FILE")
     
     parser.add_option("-o", "--output_filename", dest="output_filename",
-                  help="Output fasta filename", metavar="FILE")
+                  help="Output filename", metavar="FILE")
     
     parser.add_option("-p", "--percent", dest="percent",
                   help="sampling percent (%)", type="float", default=0.0)
